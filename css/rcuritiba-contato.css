@@ -1,0 +1,46 @@
+/* CORES INSTITUCIONAIS
+	Vermelho: #8a181b;
+	Preto: #000000;
+*/
+#local {
+	padding: 0;
+	background-color: #E9E5DC;
+	background-image: url("../imgs/bar/amb_7.jpg"), url("../imgs/bar/amb_7b.jpg"), url("../imgs/home/home4.jpg");
+	background-position: center left, center right, center center;
+	background-repeat: no-repeat, no-repeat, repeat-x;
+	background-size: auto 100%, auto 100%, auto 100%;
+	border-bottom: 1px solid #765601;
+}
+#local iframe {
+	width: 100%; min-height: 600px;
+}
+#fale-conosco {
+	padding: 0; margin: 0;
+	background-image: url("../imgs/bar/amb_3.jpg"), url("../imgs/bar/amb_13.jpg"), url("../imgs/home/home5.jpg");
+	background-position: center left, center right, center center;
+	background-repeat: no-repeat, no-repeat, repeat-x;
+	background-size: auto 100%, auto 100%, auto 100%;
+	border-bottom: 1px solid #8a181b;
+}
+#local .container, #fale-conosco .container {
+	background-color: #fff;
+}
+#fale-conosco #fale-form-wrap {
+	min-height: 607px;
+	padding: 15px;
+}
+#fale-conosco p {
+	text-align: justify;
+}
+#fale-conosco .leiamais {
+	margin-left: 5px;
+	background-color: #fff;
+    border-right: none;
+    border-left: none;
+	font-family: inherit;
+	font-weight: bold;
+	color: #8a181b;
+}
+#fale-conosco .glyphicon-envelope:before {
+	margin-right: 10px;
+}

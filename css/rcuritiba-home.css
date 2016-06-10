@@ -1,0 +1,23 @@
+/* CORES INSTITUCIONAIS
+	Vermelho: #8a181b;
+	Preto: #000000;
+*/
+
+#cardapio {
+	padding-bottom: 0;
+}
+
+.gH-item-wrapper:nth-of-type(1) .gH-item:nth-of-type(1) > a { background-image: url("../imgs/cardapio/siri1.jpg"); }
+.gH-item-wrapper:nth-of-type(1) .gH-item:nth-of-type(2) > a { background-image: url("../imgs/cardapio/pastel-carne-seca.jpg"); }
+.gH-item-wrapper:nth-of-type(1) .gH-item:nth-of-type(3) > a { background-image: url("../imgs/cardapio/picanha-grelhada.jpg"); }
+.gH-item-wrapper:nth-of-type(1) .gH-item:nth-of-type(4) > a { background-image: url("../imgs/cardapio/tilapia-milanesa.jpg"); }
+.gH-item-wrapper:nth-of-type(1) .gH-item:nth-of-type(5) > a { background-image: url("../imgs/cardapio/batata-frita.jpg"); }
+.gH-item-wrapper:nth-of-type(1) .gH-item:nth-of-type(6) > a { background-image: url("../imgs/cardapio/pastel-camarao.jpg"); }
+
+.gH-item-wrapper:nth-of-type(2) .gH-item:nth-of-type(1) > a { background-image: url("../imgs/cardapio/nortena.png"); }
+.gH-item-wrapper:nth-of-type(2) .gH-item:nth-of-type(2) > a { background-image: url("../imgs/cardapio/patagonia.png"); }
+.gH-item-wrapper:nth-of-type(2) .gH-item:nth-of-type(3) > a { background-image: url("../imgs/cardapio/eisenbahn.png"); }
+.gH-item-wrapper:nth-of-type(2) .gH-item:nth-of-type(4) > a { background-image: url("../imgs/cardapio/baden.png"); }
+.gH-item-wrapper:nth-of-type(2) .gH-item:nth-of-type(5) > a { background-image: url("../imgs/cardapio/heineken.png"); }
+.gH-item-wrapper:nth-of-type(2) .gH-item:nth-of-type(6) > a { background-image: url("../imgs/cardapio/amstel.png"); }
+

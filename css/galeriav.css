@@ -1,0 +1,27 @@
+/* CORES INSTITUCIONAIS
+	Vermelho: #8a181b;
+	Preto: #000000;
+*/
+.gV-item-wrapper, .gV-item > a {
+	margin: 0; padding: 0;
+	display: block; position: relative;
+}
+.gV-item-wrapper {
+	width: 100%; height: 150px;
+	list-style-type: none;
+}
+.gV-item {
+	width: 100%; height: 150px;
+	margin: 0; padding: 0;
+	display: block; position: relative;
+}
+.gV-item > a {
+	width: 100%; height: 150px;
+	opacity: 0.4;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.gV-item > a:hover {
+	opacity: 1;
+}

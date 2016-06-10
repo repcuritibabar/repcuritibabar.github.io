@@ -1,0 +1,48 @@
+/* CORES INSTITUCIONAIS
+	Vermelho: #8a181b;
+	Preto: #000000;
+*/
+.content {
+	background-color: #f2f2f2;
+}
+
+.artigos, .aside {
+	background-color: #ffffff;
+}
+.artigos {
+	padding: 30px 20px;
+	border: 1px dotted #8a181b;
+}
+.artigos h3 {
+	margin: 40px 0 30px 0;
+	color: #8a181b;
+    font-family: dstylus;
+    text-align: center;
+}
+
+.artigos p {
+	margin: 20px 0;
+}
+
+#artigo_amb_test {
+	margin-left: -20px; margin-right: -20px;
+	max-height: 428px;
+	padding: 0;
+}
+#artigo_amb_test img {
+	max-width: 100%;
+}
+
+.gV-item-wrapper:nth-of-type(1) .gV-item:nth-of-type(1) > a { background-image: url("../imgs/bar/amb_2.jpg"); }
+.gV-item-wrapper:nth-of-type(1) .gV-item:nth-of-type(2) > a { background-image: url("../imgs/bar/amb_3.jpg"); }
+.gV-item-wrapper:nth-of-type(1) .gV-item:nth-of-type(3) > a { background-image: url("../imgs/bar/amb_4.jpg"); }
+.gV-item-wrapper:nth-of-type(1) .gV-item:nth-of-type(4) > a { background-image: url("../imgs/bar/amb_5.jpg"); }
+.gV-item-wrapper:nth-of-type(1) .gV-item:nth-of-type(5) > a { background-image: url("../imgs/bar/amb_7.jpg"); }
+.gV-item-wrapper:nth-of-type(1) .gV-item:nth-of-type(6) > a { background-image: url("../imgs/bar/amb_11.jpg"); }
+
+.gV-item-wrapper:nth-of-type(2) .gV-item:nth-of-type(1) > a { background-image: url("../imgs/home/imagemteste.jpg"); }
+.gV-item-wrapper:nth-of-type(2) .gV-item:nth-of-type(2) > a { background-image: url("../imgs/home/imagemteste.jpg"); }
+.gV-item-wrapper:nth-of-type(2) .gV-item:nth-of-type(3) > a { background-image: url("../imgs/home/imagemteste.jpg"); }
+.gV-item-wrapper:nth-of-type(2) .gV-item:nth-of-type(4) > a { background-image: url("../imgs/home/imagemteste.jpg"); }
+.gV-item-wrapper:nth-of-type(2) .gV-item:nth-of-type(5) > a { background-image: url("../imgs/home/imagemteste.jpg"); }
+.gV-item-wrapper:nth-of-type(2) .gV-item:nth-of-type(6) > a { background-image: url("../imgs/home/imagemteste.jpg"); }

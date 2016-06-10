@@ -1,0 +1,296 @@
+/* CORES INSTITUCIONAIS
+	Vermelho: #8a181b;
+	Preto: #000000;
+*/
+
+html {
+	width: 100%;
+	height: 100%;
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0 auto;
+    color: #666;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.5;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+:lang(pt) {
+	-webkit-hyphens: manual;
+	-moz-hyphens: manual;
+	-ms-hyphens: manual;
+	hyphens: manual;
+}
+
+p {
+	-webkit-hyphens: manual;
+	-moz-hyphens: manual;
+	-ms-hyphens: manual;
+	hyphens: manual;
+}
+
+@font-face {
+	font-family: dstylus;
+    src: url("../fonts/deftone stylus.ttf");
+}
+
+nav a, .content a, footer a {
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
+
+/******************
+				NAV
+******************/
+.navbar {
+	border-bottom: 2px solid #8a181b;
+}
+
+.navbar > .container {
+	position: relative;
+}
+
+nav .navbar-brand {
+	width: 120px; height: 100px;
+	background-image: url("../imgs/marca.png"); background-repeat: no-repeat; background-size: contain;
+}
+
+nav .navbar-brand:hover {
+	opacity: 0.6;
+}
+
+#myNavbar {
+	width: auto; height: 100px !important;
+    float: right;
+}
+
+#myNav {
+	margin-top: 26px;
+	float: right;
+}
+
+#myNav > li {
+	margin-left: 30px;
+}
+
+#myNav .caret {
+	margin-left: 10px;
+	color: #8a181b;
+}
+
+.navbar-default .navbar-nav li a {
+	font-family: dstylus;
+	font-size: 20px;
+}
+
+.navbar-default #myNav>.active>a {
+    color: #8a181b;
+	background-color: transparent;
+}
+
+.navbar-default #myNav>.active>a:focus, .navbar-default #myNav>.active>a:hover, .navbar-default #myNav a:focus, .navbar-default #myNav a:hover {
+    color: #ffffff;
+    background-color: #8a181b;
+}
+
+.fb_icon {
+	width: 50px; height: 50px;
+	background-image: url("../imgs/fb_icon.png"); background-repeat: no-repeat; background-size: 25px 25px; background-position: center center;
+}
+
+.navbar-default #myNav .fb_icon:focus, .navbar-default #myNav .fb_icon:hover {
+	background-color: #b8b8b8;
+}
+
+.navbar > .container > span {
+	position: absolute;
+    right: 25px;
+    top: 5px;
+    color: #8a181b;
+    font-weight: 600;
+}
+
+/******************
+			SECTION
+******************/
+section {
+	position: relative;
+	padding: 40px 0;
+}
+section h1, section h2 {
+	font-family: dstylus;
+	margin-bottom: 30px;
+	text-align: center;
+}
+section h1 {
+	color: #ffffff;
+}
+section h2 {
+	color: #8a181b;
+}
+section a, section a:visited {
+	font-weight: bold;
+	color: #8A181B;
+}
+section a:hover {
+	color: #555555;
+	text-decoration: none;
+}
+section hr {
+    margin-top: 60px;
+    border-top: 1px solid #CECECE;
+    text-align: center;
+}
+section hr:after {
+    content: url("../imgs/rc_crown.png");
+    display: inline-block;
+    position: relative;
+    top: -25px;
+    padding: 0 10px;
+    background: #fff;
+    font-size: 18px;
+}
+
+#teste-slide {
+	color: #fff;
+	margin-top: 102px;
+	min-height: 600px;
+	background-image: url(../imgs/home/home2.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#teste-slide .header {
+    position: absolute;
+    margin: auto;
+    display: block;
+    max-width: 500px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#teste-slide h1 {
+	font-family: dstylus;
+	font-size: 40px;
+}
+
+#teste-slide h2 {
+	font-size: 28px;
+	text-align: center;
+	color: #fff;
+}
+
+#teste-slide p {
+	font-size: 22px;
+	text-align: center;
+}
+
+
+/******************
+		TEXT-BLOCKS
+******************/
+.text-blocks .foto {
+	min-height:400px;
+}
+.text-blocks .foto img {
+	width: 100%;
+}
+.text-blocks h3 {
+	text-align: center;
+	color: #000;
+}
+.text-blocks p {
+	text-align: justify;
+}
+.text-blocks .leiamais-wrap {
+	text-align: right;
+}
+.leiamais {
+	width: 100px;
+	text-align: center;
+	display: inline-block; position: relative;
+	border-top: 2px dotted #000; border-bottom: 2px dotted #000;
+	padding: 2px 0 0 0;
+	line-height: 28px;
+}
+.leiamais span {
+	margin: 0; padding: 0; top: 0;
+	width: 10px; height: 28px;
+	display: block; position: absolute;
+	background-repeat: no-repeat; background-position: center center; background-size: contain;
+}
+.leiamais span:first-child {
+	left: -10px;
+	background-image: url("../imgs/leiamais_left.png");
+}
+.leiamais span:last-child {
+	right: -10px;
+	background-image: url("../imgs/leiamais_right.png");
+}
+.leiamais:hover {
+	opacity: 0.6;
+}
+/******************
+			FOOTER
+******************/
+footer ul {
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	list-style-type: none;
+	text-align: center;
+}
+footer li {
+	display: inline-block;
+}
+#footer2 li > a, footer li > a:visited {
+	color: #ffffff;
+	padding: 15px 25px;
+}
+#footer2 li > a:hover {
+	font-weight: bold;
+	color: #000000;
+	background-color: #cecece;
+	text-decoration: none;
+}
+#footer1 .footer_brand:hover {
+	opacity: 0.6;
+}
+#footer2 {
+	background-color: #8a181b;
+}
+.fb_icon2 {
+	width: 50px; height: 50px;
+	background-image: url("../imgs/fb_icon2.png"); background-repeat: no-repeat; background-size: 25px 25px; background-position: center center;
+}
+
+.fb_icon2:focus, .fb_icon2:hover {
+	background-image: url("../imgs/fb_icon.png"); background-repeat: no-repeat; background-size: 25px 25px; background-position: center center;
+	background-color: #cecece;
+}
+#footer3, #footer4 {
+	border-top: 1px solid #8a181b;
+}
+#footer3 a, #footer4 p, #footer4 .glyphicon {
+	color: #8a181b;
+}
+#footer4 p {
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+  .text-blocks .text-right p { padding-left: 30px; }
+}
+@media (max-width: 991px) {
+  .text-blocks .foto { margin-bottom: 40px; }
+}

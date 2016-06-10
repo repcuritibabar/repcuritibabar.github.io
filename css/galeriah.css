@@ -1,0 +1,36 @@
+/* CORES INSTITUCIONAIS
+	Vermelho: #8a181b;
+	Preto: #000000;
+*/
+.galeriaH {
+	margin: 0; padding: 30px 0;
+	display: block; position: relative;
+}
+.gH-item-wrapper, .gH-item > a {
+	margin: 0; padding: 0;
+	display: block; position: relative;
+}
+.gH-item-wrapper {
+	width: 100%; height: 300px;
+	list-style-type: none;
+}
+.gH-item {
+	width: calc(100% / 6); height: 300px;
+	width: -webkit-calc(100% / 6);
+	width: -moz-calc(100% / 6);
+	margin: 0; padding: 0;
+	display: inline-block; position: relative;
+}
+.gH-item > a {
+	width: 100%; height: 300px;
+	opacity: 0.4;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.gH-item > a:hover {
+	opacity: 1;
+}
+.gH-item-wrapper:nth-of-type(2) a {
+	background-size: auto 100%;
+}
